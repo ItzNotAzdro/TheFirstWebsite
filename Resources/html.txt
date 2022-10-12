@@ -88,3 +88,22 @@ Ordered List: adds numbers
 <li>___</li>
 <li>___</li>
 </ol>
+
+
+
+
+
+1.Create
+a structure of a simple website that consists of:
+- Your Name
+- Your Bio
+- Your Education and/or Professional Experiences 
+- Your Skills
+2.Don’t worry about styling as of now! 
+
+
+
+3.Deploy
+your code on Github on the branch name “html_yourname”
+
+4. Submit your Github link here when complete!
