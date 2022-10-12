@@ -1,0 +1,14 @@
+(stolen from html_georgi)
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    background-color: grey;
+    width: 100%;
+}
