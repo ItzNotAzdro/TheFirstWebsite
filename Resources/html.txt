@@ -90,7 +90,7 @@ Ordered List: adds numbers
 </ol>
 
 
-
+<img loading="lazy" src"___" alt "___">
 
 
 1.Create
