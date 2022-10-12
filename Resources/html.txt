@@ -1,0 +1,90 @@
+Base Structure of the web
+Document format that tells the web browser how to format the webpage
+
+
+HTML: HyperText Markup Language
+
+Markup language: a document definition which tells the browser how to define the page, it tells it which elements are in a document.
+
+-Case Insensitive
+-No Variables
+
+
+FILE NAMES:
+-----------
+HOME PAGE: index.html
+STYLES: style.css
+
+FIRST LINE: <!DOCTYPE HTML>
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IF YOU DONT USE THIS IT WILL RENDER IN QUIRKS MODE!!!!
+
+! THEN TAB MAKES A BASIC SERVER
+
+
+
+=======================================
+<ELEMENT ATTRIBUTE="___" >___</ELEMENT>
+=======================================
+
+
+H1 THEN TAB = <h1></h1>
+
+H1*3 THEN TAB = <h1></h1>
+                <h1></h1>
+                <h1></h1>
+
+
+
+CHANGING FONT SIZE:   <style> h_ {font-size: ___px;}</style>
+
+
+CONTENT AREAS:
+--------------------
+
+<main></main>
+<head></head>
+<body></body>
+<title></title>
+<div></div>
+<section></section>
+<footer></footer>
+
+HEADER: <h1>___</h1> then <h2>, <h3> and so on... ONLY 1 H1
+
+PARAGRAPH: <p>___</p>
+POPUP: <script>alert('___')</script>
+Run Javascript file: <script src="___.js"></script> <-put it before the closing tag of the body
+
+
+IMAGE:
+---------
+<img> (self closing)
+PIC WITH CAPTION: <figure><img src="___" alt ="___"><figcaption>___</figcaption></figure>
+
+ATTRIBUTES:
+SOURCE: src="___"
+ALT: alt="___"
+
+
+LINK/ANCHOR:
+---------------
+<a>___</a>
+
+Attributes:
+href="___"
+
+Lists:
+----------
+
+Unordered List: 
+<ul>
+<li>___</li>
+<li>___</li>
+</ul>
+
+Ordered List: adds numbers
+<ol>
+<li>___</li>
+<li>___</li>
+</ol>
