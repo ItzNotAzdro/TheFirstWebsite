@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(24, 22, 31);
+    background-color: rgb(27, 25, 34);
 }
 
 h1{
@@ -22,6 +22,7 @@ h1{
   h3{
     text-align: center;
     color: #ffffff;
+    font-weight: normal;
   }
 
   h6{
@@ -47,6 +48,27 @@ h1{
     margin: 10px;
   }
 
+  .tower{
+    top: 10%;
+    left: 10%;
+
+    margin: 10px;
+  }
+
+  .lvl2{
+    font-weight: 1;
+    margin: 0px auto 0 auto;
+    padding: 0;
+    color: #ffffff;
+  }
+
+  .lvl3{
+    font-weight: 1;
+    margin: 0px auto 0 auto;
+    padding: 0;
+    color: #ffffff;
+  }
+
   
 
 p{
@@ -59,8 +81,9 @@ p{
   }
 
 footer {
-    position: fixed;
     bottom: 0;
+    text-align: center;
+    color: #ffffff;
     height: 30px;
     width: 100%;
     margin: 0px;
