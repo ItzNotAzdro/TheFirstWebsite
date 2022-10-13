@@ -51,29 +51,33 @@ CONTENT AREAS:
 <footer></footer>
 
 HEADER: <h1>___</h1> then <h2>, <h3> and so on... ONLY 1 H1
-
+LINE BREAK: <br />
 PARAGRAPH: <p>___</p>
 POPUP: <script>alert('___')</script>
 Run Javascript file: <script src="___.js"></script> <-put it before the closing tag of the body
+
+NAVIGATION LINE
+----------------
+<nav></nav>
+
 
 
 IMAGE:
 ---------
 <img> (self closing)
 PIC WITH CAPTION: <figure><img src="___" alt ="___"><figcaption>___</figcaption></figure>
-
+<img loading="lazy" src"___" alt "___">
 ATTRIBUTES:
 SOURCE: src="___"
 ALT: alt="___"
-
+TITLE: title="___"
 
 LINK/ANCHOR:
 ---------------
 <a>___</a>
-
 Attributes:
 href="___"
-
+TITLE: title="___"
 Lists:
 ----------
 
@@ -90,7 +94,22 @@ Ordered List: adds numbers
 </ol>
 
 
-<img loading="lazy" src"___" alt "___">
+
+FORM 
+------
+<form></form>
+<label #for="___"></label>
+    <select id=""___ #multiple name="___"></select>
+        <option value="___"></option>
+    <input id="___" type="___"(text,email,number,hidden,checkbox,radio) ///
+      ///  name="___" #placeholder="___" #min="___" #value"___"></input>
+    <textarea id="___" name="___" #required></textarea>
+<button type="___" #onclick="___">#Send </button>
+ATTRIBUTES
+SOURCE: action="___"
+method="___" (get, post)
+
+
 
 
 1.Create
