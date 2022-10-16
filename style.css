@@ -41,18 +41,9 @@ h1{
     color: #ffffff;
   }
 
-  .ex{
-    top: 10%;
-    left: 10%;
-
-    margin: 10px;
-  }
-
-  .tower{
-    top: 10%;
-    left: 10%;
-
-    margin: 10px;
+  .centered{
+display: flex;
+justify-content: center;
   }
 
   .bio2{
